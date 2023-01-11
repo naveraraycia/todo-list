@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- FONT AWESOME CDN -->
+  <script src="https://kit.fontawesome.com/57070be855.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Override -->
+  <link type="text/css" rel="stylesheet" href="style/style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;800&display=swap" rel="stylesheet">
+  
+
+  <title>To Do List</title>
+</head>
+<body class="deep-purple accent-1">
+
+  <div class="container">
+    <div class="row">
+      <h1 class="center-align white-text">To do List</h1>
+      <h4 class="center-align white-text date"></h4>
+    </div>
+
+    <div class="row">
+      <div class="card z-depth-0">
+        <div class="card-content">
+          <form id="task-form">
+            <div class="input-field">
+              <input type="text" name="task" id="task">
+              <label for="task">New Task</label>
+            </div>
+
+            <button id="submitBtn" class="btn pink lighten-3 waves-effect waves-light z-depth-0">Add Task</button>
+          </form>
+        </div>
+      </div>
+      </div>
+
+      <div class="row">
+        <h3 class="white-text">Tasks</h3>
+        <div class="card z-depth-0">
+          <div class="card-content">
+            <div class="input-field">
+            <input type="text" name="filter" id="filter">
+            <label for="filter">Filter Tasks</label>
+          </div>
+          
+          <ul class="collection"></ul>
+          
+          <button id="clearBtn" class="btn pink lighten-3 waves-effect waves-light z-depth-0">Clear Tasks</button>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+
+   <!-- jQuery -->
+   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   <script src="app.js"></script>
+</body>
+</html>

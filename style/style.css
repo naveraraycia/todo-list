@@ -1,0 +1,38 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h3 {
+  font-weight: 800;
+}
+
+h4, li {
+  font-weight: 600;
+}
+
+li {
+  color: #616163!important;
+}
+
+.input-field label {
+  font-weight: 600!important;
+  color: #9a9a9a!important;
+}
+
+input:focus {
+  border-bottom: #673AB7!important;
+  box-shadow: 0 1px 0 0 #673AB7!important;
+}
+
+.collection {
+  margin-top: 3rem!important;
+}
+
+i {
+  color: #F48FB1!important;
+}
+
+i:hover {
+  cursor: pointer;
+  color: #ad1457!important;
+}
